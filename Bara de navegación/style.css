@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family:Arial, Helvetica, sans-serif;
+    background: #323748;
+}
+
+#menu {
+    list-style: none; /*Quita las viñetas de los elementos de lista*/
+    padding: 0;
+    background: #d5dbe2;
+    margin: auto; /*Distribuye el margen de cada lado*/
+    width: 90%;
+}
+
+#menu li{
+    display: inline-block; /*Sirve para que los elementos se pongan en linea, lado a lado*/
+}
+
+#menu li a{
+    text-decoration: none; /*Sirve para quitar la decoacion del texto*/
+    color: #323748;
+    display: block; /*Para que el atributo se vuelva un elemento de bloque*/
+    padding: 20px;
+}
+
+#menu li a:hover{
+    background: white; /*Pone un color cuando ponemos el cursor encima del elemento*/
+}

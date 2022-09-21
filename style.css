@@ -1,0 +1,49 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    display: flex;
+    justify-content:space-between;
+    background: #d5dbe2;
+    align-items: center;
+    padding: 10px;
+    border-radius: 100px;
+    padding: 25px;
+}
+
+#logo_work {
+    display: flex;
+    text-decoration: none;
+    color: #323748;
+    align-items: center;
+}
+
+#logo {
+    height: 50px;
+    margin-right: 20px;
+}
+
+/*Aplicamos estilos a la barra de navegación*/
+
+nav .link_nav {
+    padding-right: 15px;
+    font-size: 20px;
+    text-decoration: none;
+    color: #323748;
+    font-weight: bold; /*Aplicar negrita*/
+
+}
+
+nav .link_nav:hover{
+    color: white;
+    background-color: pink;
+    padding: 20px;
+    border-radius: 60px;
+}
+
+body{
+    background-color: cadetblue;
+}
